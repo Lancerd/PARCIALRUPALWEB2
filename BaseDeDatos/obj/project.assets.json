@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "AccesaDatos/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Comun": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AccesaDatos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AccesaDatos.dll": {}
-        }
-      },
-      "Comun/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Comun.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Comun.dll": {}
-        }
-      }
-    }
+    "net8.0": {}
   },
-  "libraries": {
-    "AccesaDatos/1.0.0": {
-      "type": "project",
-      "path": "../AccesaDatos/AccesaDatos.csproj",
-      "msbuildProject": "../AccesaDatos/AccesaDatos.csproj"
-    },
-    "Comun/1.0.0": {
-      "type": "project",
-      "path": "../Comun/Comun.csproj",
-      "msbuildProject": "../Comun/Comun.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "AccesaDatos >= 1.0.0",
-      "Comun >= 1.0.0"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\sys\\.nuget\\packages\\": {},
@@ -52,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\ReglaNegocio.csproj",
+      "projectUniqueName": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\ReglaNegocio.csproj",
       "projectName": "ReglaNegocio",
-      "projectPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\ReglaNegocio.csproj",
+      "projectPath": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\ReglaNegocio.csproj",
       "packagesPath": "C:\\Users\\sys\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\obj\\",
+      "outputPath": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\BaseDeDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,14 +39,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\AccesaDatos\\AccesaDatos.csproj": {
-              "projectPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\AccesaDatos\\AccesaDatos.csproj"
-            },
-            "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj": {
-              "projectPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

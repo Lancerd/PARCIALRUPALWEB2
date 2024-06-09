@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ldAkXMh7MCSd/PmZDaqmIzFPidkjAqodARz7+LkXNM920NeXnui2dWm5ggjRM65KLNmSy65gk3oTPyL/09tFsw==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\AccesaDatos\\AccesaDatos.csproj",
+  "dgSpecHash": "bsQH0Fu22v0ZdUlpA4n0WuSfcNMEtUVmw9jEsaqd2mn3tgGZgQkBf8IUGlUzYavNHfhXaQHPo8RPL6L2au2qDg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\AccesaDatos\\AccesaDatos.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Comun no es compatible con net472 (.NETFramework,Version=v4.7.2). El proyecto Comun admite: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Comun",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
 }
