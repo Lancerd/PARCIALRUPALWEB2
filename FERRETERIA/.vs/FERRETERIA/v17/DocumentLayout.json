@@ -3,7 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\FERRETERIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9EB707F-831D-4FDB-9BA2-F4890EE4674A}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\reglanegocio\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\reglanegocio\\productobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\reglanegocio\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049F3C9B-C391-4FCA-8D25-EB989BEB07E8}|..\\Comun\\Comun.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\comun\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049F3C9B-C391-4FCA-8D25-EB989BEB07E8}|..\\Comun\\Comun.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\comun\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\facturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\basededato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +40,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 201,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaBl.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaBl.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\VentaBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:34:23.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoBl.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ProductoBl.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\ProductoBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:33:53.701Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -25,15 +78,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\Class1.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Class1.cs",
-              "RelativeToolTip": "..\\AccesoDato\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ClienteBl.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ClienteBl.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\ClienteBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:15:09.549Z",
+              "WhenOpened": "2024-06-09T22:33:51.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Venta.cs",
+              "RelativeDocumentMoniker": "..\\Comun\\Venta.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Venta.cs",
+              "RelativeToolTip": "..\\Comun\\Venta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:33:19.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Producto.cs",
+              "RelativeDocumentMoniker": "..\\Comun\\Producto.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Producto.cs",
+              "RelativeToolTip": "..\\Comun\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:32:57.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaDao.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\FacturaDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\FacturaDao.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\FacturaDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\FacturaDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:32:13.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoDao.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ProductoDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\ProductoDao.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ProductoDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\ProductoDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:31:53.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteDao.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\ClienteDao.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\ClienteDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:31:30.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Data.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\Data.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Data.cs",
+              "RelativeToolTip": "..\\AccesoDato\\Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:30:45.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseDeDato.cs",
+              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\BaseDeDato.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\BaseDeDato.cs",
+              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\BaseDeDato.cs",
+              "RelativeToolTip": "..\\AccesoDato\\BaseDeDato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:28:43.527Z",
               "EditorCaption": ""
             }
           ]

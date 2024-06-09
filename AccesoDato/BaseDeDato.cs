@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.OleDb;
 
-namespace Comun
+namespace AccesoDato
 {
-    internal class Producto
+    public class BaseDeDato
     {
+        
     }
 }

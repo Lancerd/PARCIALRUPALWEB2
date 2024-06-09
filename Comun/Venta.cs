@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comun
 {
-    public class Venta
+    internal class Venta
     {
     }
 }

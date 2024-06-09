@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Comun
+namespace ReglaNegocio
 {
-    internal class Producto
+    internal class VentaBl
     {
+
     }
 }

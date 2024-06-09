@@ -286,16 +286,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseDeDatos\ReglaNegocio.csproj">
-      <Project>{0c259fa4-f8cc-4849-bd48-da7f1becb661}</Project>
-      <Name>ReglaNegocio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Comun\Comun.csproj">
-      <Project>{fbc1a528-11bd-4b96-9d89-d90ece84e069}</Project>
-      <Name>Comun</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
@@ -305,6 +295,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Comun\Comun.csproj">
+      <Project>{049f3c9b-c391-4fca-8d25-eb989beb07e8}</Project>
+      <Name>Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReglaNegocio\ReglaNegocio.csproj">
+      <Project>{c03162da-4b3e-44a1-8d94-5cf144b14ec5}</Project>
+      <Name>ReglaNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
