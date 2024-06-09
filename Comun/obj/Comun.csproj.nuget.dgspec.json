@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj": {}
+    "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj": {
+    "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj",
+        "projectUniqueName": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj",
         "projectName": "Comun",
-        "projectPath": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj",
+        "projectPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Comun.csproj",
         "packagesPath": "C:\\Users\\sys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\obj\\",
+        "outputPath": "c:\\Users\\sys\\Desktop\\&%#(#!¡!\\COBRO\\PARCIALRUPALWEB2\\Comun\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReglaNegocio
 {
-    internal class ClienteBl
+    public class VentaProductoBl
     {
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AccesaDatos
+namespace Comun
 {
-    public class Venta_ProductosDao
+    public class VentaProducto
     {
     }
 }
