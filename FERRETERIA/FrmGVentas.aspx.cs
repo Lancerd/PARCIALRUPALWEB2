@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+t 
 namespace FERRETERIA
 {
     public partial class FrmGVentas : System.Web.UI.Page
