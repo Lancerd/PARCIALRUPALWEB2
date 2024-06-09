@@ -11,7 +11,7 @@ namespace FERRETERIA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            CargarCombo_cliente();
         }
 
         private void CargarCombo_cliente()

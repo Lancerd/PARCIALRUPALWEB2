@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FERRETERIA", "FERRETERIA.csproj", "{97A64B4D-9240-4C5F-9183-5A5F20896C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDeDatos", "..\BaseDeDatos\BaseDeDatos.csproj", "{0C259FA4-F8CC-4849-BD48-DA7F1BECB661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReglaNegocio", "..\BaseDeDatos\ReglaNegocio.csproj", "{0C259FA4-F8CC-4849-BD48-DA7F1BECB661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesaDatos", "..\AccesaDatos\AccesaDatos.csproj", "{3BAA1867-CC9A-4E0E-9850-A65508D5B4C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccesaDatos", "..\AccesaDatos\AccesaDatos.csproj", "{3BAA1867-CC9A-4E0E-9850-A65508D5B4C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comun", "..\Comun\Comun.csproj", "{FBC1A528-11BD-4B96-9D89-D90ECE84E069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comun", "..\Comun\Comun.csproj", "{FBC1A528-11BD-4B96-9D89-D90ECE84E069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -282,9 +282,9 @@
       <Project>{3baa1867-cc9a-4e0e-9850-a65508d5b4c1}</Project>
       <Name>AccesaDatos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BaseDeDatos\BaseDeDatos.csproj">
+    <ProjectReference Include="..\BaseDeDatos\ReglaNegocio.csproj">
       <Project>{0c259fa4-f8cc-4849-bd48-da7f1becb661}</Project>
-      <Name>BaseDeDatos</Name>
+      <Name>ReglaNegocio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Comun\Comun.csproj">
       <Project>{fbc1a528-11bd-4b96-9d89-d90ece84e069}</Project>
