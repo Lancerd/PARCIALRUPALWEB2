@@ -13,7 +13,7 @@ namespace AccesoDato
          public List<Producto> ListarProducto (){
             List<Producto> Producto = new List<Producto>();
             Data data = new Data();
-            string vSql = "SELECT [Id], [Nombre] FROM Cliente";
+            string vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto";
             DataTable dt = data.CargarDt(vSql,CommandType.Text);
             foreach (DataRow dr in dt.Rows){
                 Producto producto = new Producto{
