@@ -9,7 +9,7 @@ using Comun;
 
 namespace ReglaNegocio
 {
-    internal class VentaBl
+    public class VentaBl
     {
         public static void ListarVenta(DropDownList cmd){
             VentaDao ventaDao = new VentaDao();

@@ -8,7 +8,7 @@ using Comun;
 
 namespace ReglaNegocio
 {
-    internal class VentaProductoBl
+    public class VentaProductoBl
     {
         public static void ListarVentaProducto(DropDownList cmd){
             VentaProductoDao ventaDao = new VentaProductoDao();
