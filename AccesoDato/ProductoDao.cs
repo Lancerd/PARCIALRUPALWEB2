@@ -16,7 +16,7 @@ namespace AccesoDato
             List<Producto> Producto = new List<Producto>();
             Data data = new Data();
             string vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto";
-            DataTable dt = data.CargarDt(vSql,CommandType.Text);
+            DataTable dt = data.Preparar(vSql, CommandType.Text);
             foreach (DataRow dr in dt.Rows){
                 Producto producto = new Producto{
                     Id = Convert.ToInt32(dr["Id"]),

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using Comun;
 using System.Data;
 
+
 namespace AccesoDato
 {
     public class VentaDao
     {
-        
-        public List<Venta> ListarVenta(){
+        public List<Venta> ListarVenta()
+        {
             List<Venta> Venta = new List<Venta>();
             Data data = new Data();
             string vSql = "SELECT [Id], [IdCliente] FROM Factura";
