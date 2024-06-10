@@ -16,13 +16,10 @@ namespace AccesoDato
             Data data = new Data();
             string vSql = @"
                 SELECT 
-                    f.Id, 
-                    f.IdCliente, 
-                    c.Nombre AS NombreCliente
+                    Id, 
+                    IdCliente, 
                 FROM 
-                    Factura f 
-                INNER JOIN 
-                    Cliente c ON f.IdCliente = c.Id";
+                    Factura";
             DataTable dt = data.CargarDt(vSql, CommandType.Text);
             foreach (DataRow dr in dt.Rows)
             {
@@ -30,7 +27,6 @@ namespace AccesoDato
                 {
                     Id = Convert.ToInt32(dr["Id"]),
                     IdCliente = Convert.ToInt32(dr["IdCliente"]),
-                    NombreCliente = dr["NombreCliente"].ToString()
                 };
                 ventas.Add(venta);
             }
