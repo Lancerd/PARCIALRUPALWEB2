@@ -14,7 +14,7 @@ namespace AccesoDato
         public List<Venta> ListarVenta (){
             List<Venta> Venta = new List<Venta>();
             Data data = new Data();
-            string vSql = "SELECT [Id] [IdCliente] FROM Factura";
+            string vSql = "SELECT [Id], [IdCliente] FROM Factura";
             DataTable dt = data.CargarDt(vSql,CommandType.Text);
             foreach (DataRow dr in dt.Rows){
                 Venta venta = new Venta{
