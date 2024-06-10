@@ -10,19 +10,31 @@ namespace AccesoDato
 {
     public class ClienteDao
     {
-        public List<Cliente> ListarCliente (){
-            List<Cliente> Cliente = new List<Cliente>();
+       public List<Venta> ListarVenta()
+        {
+            List<Venta> ventas = new List<Venta>();
             Data data = new Data();
-            string vSql = "SELECT [Id], [Nombre] FROM Cliente";
-            DataTable dt = data.CargarDt(vSql,CommandType.Text);
-            foreach (DataRow dr in dt.Rows){
-                Cliente cliente = new Cliente{
+            string vSql = @"
+                SELECT 
+                    f.Id, 
+                    f.IdCliente, 
+                    c.Nombre AS NombreCliente
+                FROM 
+                    Factura f 
+                INNER JOIN 
+                    Cliente c ON f.IdCliente = c.Id";
+            DataTable dt = data.CargarDt(vSql, CommandType.Text);
+            foreach (DataRow dr in dt.Rows)
+            {
+                Venta venta = new Venta
+                {
                     Id = Convert.ToInt32(dr["Id"]),
-                    Nombre = Convert.ToString(dr["Nombre"])
+                    IdCliente = Convert.ToInt32(dr["IdCliente"]),
+                    NombreCliente = dr["NombreCliente"].ToString()
                 };
-                Cliente.Add(cliente);
+                ventas.Add(venta);
             }
-            return Cliente;
+            return ventas;
         }
     }
 }

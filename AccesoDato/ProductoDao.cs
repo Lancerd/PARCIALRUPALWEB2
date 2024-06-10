@@ -12,19 +12,19 @@ namespace AccesoDato
     {
         
 
-        public List<Producto> ListarProducto(){
-            List<Producto> Producto = new List<Producto>();
+        public List<Usuario> ListarUsuarios(){
+            List<Usuario> usuarios = new List<Usuario>();
             Data data = new Data();
-            string vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto";
+            string vSql = "SELECT [Id], [Nombre], [Apellido] FROM Usuario"; 
             DataTable dt = data.Preparar(vSql, CommandType.Text);
             foreach (DataRow dr in dt.Rows){
-                Producto producto = new Producto{
+                Usuario usuario = new Usuario{
                     Id = Convert.ToInt32(dr["Id"]),
                     Nombre = Convert.ToString(dr["Nombre"])
                 };
-                Producto.Add(producto);
+                usuarios.Add(usuario);
             }
-            return Producto;
+            return usuarios;
         }
     }
 }
