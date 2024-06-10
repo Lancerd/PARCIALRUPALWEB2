@@ -1,0 +1,6 @@
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\bin\Debug\Comun.dll
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\bin\Debug\Comun.pdb
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.csproj.AssemblyReference.cache
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.dll
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.pdb

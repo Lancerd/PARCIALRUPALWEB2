@@ -1,0 +1,9 @@
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.AssemblyReference.cache
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.CoreCompileInputs.cache
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\bin\Debug\AccesoDato.dll
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\bin\Debug\AccesoDato.pdb
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\bin\Debug\Comun.dll
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\bin\Debug\Comun.pdb
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.Up2Date
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.dll
+C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.pdb

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Comun;
 using AccesoDato;
+using System.Web.UI.WebControls;
 
 namespace ReglaNegocio
 {
@@ -14,7 +15,7 @@ namespace ReglaNegocio
             List<Producto> producto = ProductoDao.ListarProducto(cmd);
             cmd.DataSource = producto;
             cmd.DataValueField = "Id";
-            cmd.DataTexField = "Nombre";
+            cmd.DataTextField = "Nombre";
             cmd.DataBind();
         }
     }

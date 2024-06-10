@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using AccesoDato;
 using Comun;
+
 
 namespace ReglaNegocio
 {
@@ -15,7 +17,7 @@ namespace ReglaNegocio
             List<Cliente> cliente = ClienteDao.ListarCliente(cmd);
             cmd.DataSource = cliente;
             cmd.DataValueField = "Id";
-            cmd.DataTexField = "Nombre";
+            cmd.DataTextField = "Nombre";
             cmd.DataBind();
         }
     }

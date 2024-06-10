@@ -10,7 +10,9 @@ namespace AccesoDato
 {
     public class ProductoDao
     {
-         public List<Producto> ListarProducto (){
+        
+
+        public List<Producto> ListarProducto(){
             List<Producto> Producto = new List<Producto>();
             Data data = new Data();
             string vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto";

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using AccesoDato;
 using Comun;
 
@@ -15,7 +16,7 @@ namespace ReglaNegocio
             List<Venta> venta = VentaDao.ListarVenta(cmd);
             cmd.DataSource = venta;
             cmd.DataValueField = "Id";
-            cmd.DataTexField = "IdCliente";
+            cmd.DataTextField = "IdCliente";
             cmd.DataBind();
         }
     }

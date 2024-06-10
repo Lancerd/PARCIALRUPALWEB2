@@ -14,7 +14,7 @@ namespace AccesoDato
 
         public void Preparar (string pComando, CommandType pTipo){
             bd = new BaseDeDato ();
-            bd.Conectar(pComando, pTipo);
+            bd.Conectar();
         }
 
         public void AsignarParametro (string pComando, OleDbType pTipo, object pValor){

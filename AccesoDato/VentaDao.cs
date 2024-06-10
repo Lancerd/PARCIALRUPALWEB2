@@ -11,7 +11,7 @@ namespace AccesoDato
     public class VentaDao
     {
         
-        public List<Venta> ListarVenta (){
+        public List<Venta> ListarVenta(){
             List<Venta> Venta = new List<Venta>();
             Data data = new Data();
             string vSql = "SELECT [Id], [IdCliente] FROM Factura";

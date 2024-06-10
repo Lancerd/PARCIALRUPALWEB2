@@ -14,7 +14,7 @@ namespace AccesoDato
         public List<Venta> ListarVentaproducto (int IdFActura){
             List<VentaProducto> VentaProducto = new List<VentaProducto>();
             Data data = new Data();
-            string vSql = "SELECT [Id], [IdProducto] FROM Factura-Producto WHERE IdFActura = ?";
+            string vSql = "SELECT [Id], vp.[Nombre] as Producto, vp.[valor] as Producto FROM Factura-Producto WHERE IdFActura = ?";
             DataTable dt = data.CargarDt(vSql,CommandType.Text);
             foreach (DataRow dr in dt.Rows){
                 VentaProducto ventaProducto = new VentaProducto{
