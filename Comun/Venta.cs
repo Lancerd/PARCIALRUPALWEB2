@@ -10,16 +10,16 @@ namespace Comun
     {
         public int Id { get; set;}
 
-        public string Nombre { get; set;} 
+        public int IdCliente { get; set;} 
 
         public Venta (){
             Id = 0;
-            Nombre = string.Empty;
+            IdCliente = 0;
         }
 
-        public Venta (int Id, string Nombre){
+        public Venta (int Id, int IdCliente){
             this.Id = Id;
-            this.Nombre = Nombre;
+            this.IdCliente = IdCliente;
         }
 
     }

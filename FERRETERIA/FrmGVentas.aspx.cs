@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Comun;
+using ReglaNegocio;
 
 namespace FERRETERIA
 {
@@ -15,7 +17,7 @@ namespace FERRETERIA
         }
         private void CargarCombo_cliente()
         {
-
+            
         }
         protected void CmbCliente_SelectedIndexChanged(object sender, EventArgs e)
         {

@@ -19,7 +19,7 @@ namespace AccesoDato
             foreach (DataRow dr in dt.Rows){
                 Venta venta = new Venta{
                     Id = Convert.ToInt32(dr["Id"]),
-                    Nombre = Convert.ToString(dr["IdCliente"])
+                    IdCliente = Convert.ToInt32(dr["IdCliente"])
                 };
                 Venta.Add(venta);
             }
