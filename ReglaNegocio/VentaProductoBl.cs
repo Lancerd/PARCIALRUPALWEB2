@@ -11,11 +11,11 @@ namespace ReglaNegocio
     public class VentaProductoBl
     {
         public static void ListarVentaProducto(DropDownList cmd){
-            VentaProductoDao ventaDao = new VentaProductoDao();
+            VentaProductoDao venaProductoDao = new VentaProductoDao();
             List<VentaProducto> ventaProducto = VentaProductoDao.ListarVentaProducto(cmd);
             cmd.DataSource = ventaProducto;
-            cmd.DataValueField = "Id";
-            cmd.DataTexField = "IdCliente";
+            cmd.DataValueField = "IdProducto";
+            cmd.DataTexField = "Valor";
             cmd.DataBind();
         }
     }

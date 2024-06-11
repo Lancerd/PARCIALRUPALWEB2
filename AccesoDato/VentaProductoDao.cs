@@ -15,17 +15,15 @@ namespace AccesoDato
         {
             List<VentaProducto> ventaProductos = new List<VentaProducto>();
             Data data = new Data();
-            string vSql = @"
-                SELECT 
-                    fp.Id, 
-                    fp.IdProducto, 
-                    p.Valor 
-                FROM 
-                    FacturaProducto fp 
-                INNER JOIN 
-                    Producto p ON fp.IdProducto = p.Id 
-                WHERE 
-                    fp.IdFactura = @IdFactura";
+            string vSql = @"SELECT 
+                                p.IdProducto,
+                                p.Valor
+                            FROM 
+                                Producto p
+                            INNER JOIN 
+                                FacturaProducto fp ON p.Id = fp.IdProducto
+                            WHERE 
+                                fp.IdFactura = ?";
             DataTable dt = data.CargarDt(vSql, CommandType.Text, new SqlParameter("@IdFactura", IdFactura));
             foreach (DataRow dr in dt.Rows)
             {
