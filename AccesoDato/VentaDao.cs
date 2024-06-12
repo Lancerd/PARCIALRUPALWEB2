@@ -11,6 +11,20 @@ namespace AccesoDato
 {
     public class VentaDao
     {
+
+        BaseDeDato bd;
+
+        public int BdCodeError {get; set;}
+
+        public string BdMsgError {get; set;}
+
+        public VentaDao(){
+            BdCodeError = 0;
+            BdMsgError = "";
+            bd = new BaseDeDato;
+            bd.Conectar;
+        }
+
         public List<Venta> ListarVenta()
         {
             List<Venta> ventas = new List<Venta>();
@@ -32,6 +46,39 @@ namespace AccesoDato
                 ventas.Add(venta);
             }
             return ventas;
+        }
+
+        public int Eliminar(int Id){
+            int numReg = 0;
+            string vSql = "DELETE FROM Factura WHERE  [Id] = ?";
+            bd.CrearComando(vSql, CommandType.Text);
+            bd.AsignarParametro("?",OleDbType.Integer, Id);
+            numReg = bd.EjecutarComando();
+            bd.Desconectar();
+            if(numReg <= 0){
+                if(bd.BdCodeError != 0){
+                    BdCodeError = bd.BdCodeError;
+                    BdMsgError = bd.BdMsgError;
+                }
+            }
+            return numReg;
+        }
+
+        public int Insertar(Venta venta){
+            int numReg = 0;
+            var vSql = "INSERT INTO Factura ([Id], [Nombre]) VALUES (?, ?)";
+            bd.CrearComando(vSql. CommandType.Text);
+            bd.AsignarParametro("?", OleDbType.Integer, venta.Id);
+            bd.AsignarParametro("?", OleDbType.Integer, venta.IdCliente);
+            numReg = bd.EjecutarComando();
+            bd.Desconectar();
+            if(numReg<=0){
+                if(bd.BdCodeError!=0){
+                    BdCodeError = bd.BdCodeError;
+                    BdMsgError = bd.BdMsgError;
+                }
+            }
+            return numReg;
         }
     }
 }
