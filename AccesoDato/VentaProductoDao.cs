@@ -31,7 +31,7 @@ namespace AccesoDato
                 {
                     Id = Convert.ToInt32(dr["Id"]),
                     IdProducto = Convert.ToInt32(dr["IdProducto"]),
-                    ValorProducto = Convert.ToDecimal(dr["Valor"]) 
+                    ValorProducto = Convert.ToInt32(dr["Valor"]) 
                 };
                 ventaProductos.Add(ventaProducto);
             }

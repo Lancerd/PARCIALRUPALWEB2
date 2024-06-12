@@ -11,12 +11,6 @@ namespace ReglaNegocio
 {
     public class ProductoBl
     {
-        public static void ListarProducto(DropDownList cmd){
-            List<Producto> producto = ProductoDao.ListarProducto(cmd);
-            cmd.DataSource = producto;
-            cmd.DataValueField = "Id";
-            cmd.DataTextField = "Nombre";
-            cmd.DataBind();
-        }
+        
     }
 }
