@@ -25,7 +25,15 @@ namespace AccesoDato
             bd.Conectar();
         }
 
-        public List<VentaProducto> ListarVentaProducto()
+
+        public static List<VentaProducto> CargarGrilla()
+        {
+            return ListarVentaProducto();
+        }
+
+
+
+        public static List<VentaProducto> ListarVentaProducto()
         {
             List<VentaProducto> ventaProductos = new List<VentaProducto>();
             Data data = new Data();
@@ -50,6 +58,8 @@ namespace AccesoDato
             }
             return ventaProductos;
         }
+
+
 
         public int InsertarVP(VentaProducto ventaProducto){
             int numReg = 0;

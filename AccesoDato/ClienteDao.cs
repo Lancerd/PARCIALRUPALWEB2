@@ -25,7 +25,7 @@ namespace AccesoDato
             bd.Conectar();
         }
 
-        public List<Cliente> ListarCliente()
+        public static List<Cliente> ListarCliente()
         {
             List<Cliente> Clientes = new List<Cliente>();
             Data data = new Data();
@@ -46,6 +46,10 @@ namespace AccesoDato
                 Clientes.Add(cliente);
             }
             return Clientes;
+        }
+
+        public static List<Cliente> CargarGrilla (){
+            return ListarCliente();
         }
 
         public int Aptualizar (Cliente cliente)

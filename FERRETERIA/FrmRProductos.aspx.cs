@@ -42,7 +42,7 @@ namespace FERRETERIA
 
         protected void BtnBuscar_Click(object sender, EventArgs e)
         {
-            ListarProduto();
+            ListarProduto(cm);
         }
 
         protected void BtnAgregar_Click(object sender, EventArgs e)

@@ -17,16 +17,15 @@ namespace FERRETERIA
         }
         private void CargarCombo_cliente()
         {
-            ClienteBl.ListarCliente();
+            ClienteBl.ListarCliente(CmbCliente);
         }
         protected void CmbCliente_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string clienteSeleccionado = CmbCliente.SelectedValue;
-            CargarFacturas(clienteSeleccionado);
+            
         }
-        protected void CargarFacturas(string clienteId)
+        protected void CargarFacturas(Cliente cliente)
         {
-            VentaBl.ListarVenta(DgvProductos);
+            
         }
     }
 }

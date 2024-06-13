@@ -3,22 +3,15 @@
   "WorkspaceRootPath": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\ventaproductobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmrproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmrproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\ventaproductodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\productobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\ventadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmrproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmrproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 201,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,80 +33,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteDao.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\ClienteDao.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\ClienteDao.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwB0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T00:03:58.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteBl.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
-              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ClienteBl.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
-              "RelativeToolTip": "..\\ReglaNegocio\\ClienteBl.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T00:03:25.01Z",
+              "DocumentIndex": 0,
+              "Title": "FrmRProductos.aspx",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx",
+              "RelativeDocumentMoniker": "FrmRProductos.aspx",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx",
+              "RelativeToolTip": "FrmRProductos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T20:08:08.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VentaProductoDao.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaProductoDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\VentaProductoDao.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaProductoDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\VentaProductoDao.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAcwEAAAAAvAAAA",
+              "Title": "ProductoBl.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ProductoBl.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\ProductoBl.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T23:59:32.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VentaProductoBl.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaProductoBl.cs",
-              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaProductoBl.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaProductoBl.cs",
-              "RelativeToolTip": "..\\ReglaNegocio\\VentaProductoBl.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAQwEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T23:57:42.45Z",
+              "WhenOpened": "2024-06-13T20:07:45.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VentaDao.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\VentaDao.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\VentaDao.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAASwDsAAAAoAAAA",
+              "Title": "FrmRProductos.aspx.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx.cs",
+              "RelativeDocumentMoniker": "FrmRProductos.aspx.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx.cs",
+              "RelativeToolTip": "FrmRProductos.aspx.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:28:30.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VentaBl.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
-              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaBl.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
-              "RelativeToolTip": "..\\ReglaNegocio\\VentaBl.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:28:51.428Z",
+              "WhenOpened": "2024-06-13T20:06:32.916Z",
               "EditorCaption": ""
             }
           ]

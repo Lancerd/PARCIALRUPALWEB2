@@ -35,7 +35,7 @@ namespace ReglaNegocio
 
         public int EliminarVP(VentaProducto ventaProducto){
             int numReg = 0;
-            numReg = VentaProductoDao.EliminarPV(ventaProducto);
+            numReg = ventaProductoDao.EliminarPV(ventaProducto);
             if(numReg <= 0){
                 if(ventaProductoDao.BdCodeError !=0){
                     BdCodeError = ventaProductoDao.BdCodeError;
@@ -45,9 +45,9 @@ namespace ReglaNegocio
             return numReg;
         }
 
-        public int EliminarV(VentaProducto ventaProducto){
+        public int Eliminar(VentaProducto ventaProducto){
             int numReg = 0;
-            numReg = VentaProductoDao.EliminarV(ventaProducto);
+            numReg = ventaProductoDao.EliminarV(ventaProducto);
             if(numReg <= 0){
                 if(ventaProductoDao.BdCodeError !=0){
                     BdCodeError = ventaProductoDao.BdCodeError;
@@ -57,13 +57,16 @@ namespace ReglaNegocio
             return numReg;
         }
 
-        public static void ListarVentaProducto(DropDownList cmd){
-            VentaProductoDao ventaProductoDao = new VentaProductoDao();
-            List<VentaProducto> ventaProducto = ventaProductoDao.ListarVentaProducto();
-            cmd.DataSource = ventaProducto;
-            cmd.DataValueField = "IdFactura";
-            cmd.DataValueField = "IdProducto";
-            cmd.DataBind();
-        }        
+        public static void ListarVentaProducto(GridView dgv){
+            List<VentaProducto> ventaProductos = VentaProductoDao.CargarGrilla();
+            var datosmostrar = ventaProductos.Select(vp => new
+            {
+                vp.IdProducto,
+                vp.Valor
+            }).ToList();
+            dgv.DataSource = datosmostrar;
+            dgv.DataBind();
+            dgv.HeaderRow.Cells[1].Text = "Producto";
+        }
     }
 }

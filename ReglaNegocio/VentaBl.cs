@@ -70,13 +70,12 @@ namespace ReglaNegocio
 
         public static void ListarVenta(GridView dgv)
         {
-            VentaDao ventaDao = new VentaDao();
-            List<Venta> venta = ventaDao.ListarVenta();
-            var DatosMostrar = venta.Select(v => new {
+            List<Venta> ventas = VentaDao.CargarGrilla();
+            var DatosMostrar = ventas.Select(v => new {
                 v.Id,
                 v.IdCliente
             }).ToList();
-            dgv.DataSource = venta;
+            dgv.DataSource = ventas;
             dgv.DataBind();
 
             dgv.HeaderRow.Cells[2].Text = "Nombre";

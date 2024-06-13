@@ -27,7 +27,7 @@ namespace AccesoDato
             bd.Conectar();
         }
 
-        public List<Venta> ListarVenta()
+        public static List<Venta> ListarVenta()
         {
             List<Venta> ventas = new List<Venta>();
             Data data = new Data();
@@ -49,6 +49,10 @@ namespace AccesoDato
                 ventas.Add(venta);
             }
             return ventas;
+        }
+
+        public static List<Venta> CargarGrilla (){
+            return ListarVenta();
         }
 
         public int Eliminar(Venta venta)

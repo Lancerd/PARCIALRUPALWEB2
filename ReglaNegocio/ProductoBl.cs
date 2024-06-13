@@ -40,8 +40,7 @@ namespace ReglaNegocio
 
         public static void ListarProducto(DropDownList cmd)
         {
-            ProductoDao productoDao = new ProductoDao();
-            List<Producto> producto = productoDao.ListarProducto();
+            List<Producto> producto = ProductoDao.CargarGrilla();
             cmd.DataSource = producto;
             cmd.DataValueField = "Id";
             cmd.DataTextField = "Nombe";

@@ -26,7 +26,7 @@ namespace AccesoDato
         }
 
 
-        public List<Producto> ListarProducto(){
+        public static List<Producto> ListarProducto(){
             List<Producto> Producto = new List<Producto>();
             Data data = new Data();
             string vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto"; 
@@ -39,6 +39,10 @@ namespace AccesoDato
                 Producto.Add(producto);
             }
             return Producto;
+        }
+
+        public static List<Producto> CargarGrilla(){
+            return ListarProducto();
         }
 
         public int Consultar (Producto producto)
