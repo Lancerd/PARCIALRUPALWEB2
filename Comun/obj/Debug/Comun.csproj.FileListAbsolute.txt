@@ -4,3 +4,9 @@ C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.cspr
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.dll
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.csproj.AssemblyReference.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\obj\Debug\Comun.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\bin\Debug\Comun.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\Comun\bin\Debug\Comun.pdb

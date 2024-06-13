@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Comun;
 using System.Data;
+using System.Data.OleDb;
 
 namespace AccesoDato
 {
@@ -20,13 +21,13 @@ namespace AccesoDato
         public ClienteDao(){
             BdCodeError = 0;
             BdMsgError = "";
-            bd = new BaseDeDato;
-            bd.Conectar;
+            bd = new BaseDeDato ();
+            bd.Conectar();
         }
 
         public List<Cliente> ListarCliente()
         {
-            List<Venta> cliente = new List<Cliente>();
+            List<Cliente> Clientes = new List<Cliente>();
             Data data = new Data();
             string vSql = @"
                 SELECT 
@@ -37,25 +38,29 @@ namespace AccesoDato
             DataTable dt = data.CargarDt(vSql, CommandType.Text);
             foreach (DataRow dr in dt.Rows)
             {
-                Venta venta = new Venta
+                Cliente cliente = new Cliente
                 {
                     Id = Convert.ToInt32(dr["Id"]),
-                    IdCliente = Convert.ToString(dr["Cliente"]),
+                    Nombre = Convert.ToString(dr["IdProducto"]),
                 };
-                ventas.Add(venta);
+                Clientes.Add(cliente);
             }
-            return ventas;
+            return Clientes;
         }
 
-        public int Eliminar(int Id){
+        public int Aptualizar (Cliente cliente)
+        {
             int numReg = 0;
-            string vSql = "DELETE FROM Cliente WHERE  [Id] = ?";
+            var vSql = "UPDATE Cliente SET [Nombre]=? WHERE [Id]=?";
             bd.CrearComando(vSql, CommandType.Text);
-            bd.AsignarParametro("?",OleDbType.Integer, Id);
+            bd.AsignarParametro("?", OleDbType.VarChar, cliente.Nombre);
+            bd.AsignarParametro("?", OleDbType.Integer, cliente.Id);
             numReg = bd.EjecutarComando();
             bd.Desconectar();
-            if(numReg <= 0){
-                if(bd.BdCodeError != 0){
+            if(numReg <= 0)
+            {
+                if(BdCodeError != 0)
+                {
                     BdCodeError = bd.BdCodeError;
                     BdMsgError = bd.BdMsgError;
                 }
@@ -63,12 +68,12 @@ namespace AccesoDato
             return numReg;
         }
 
-        public int Insertar(Venta venta){
+        public int Insertar(Cliente cliente){
             int numReg = 0;
             var vSql = "INSERT INTO Cliente ([Id], [Nombre]) VALUES (?, ?)";
-            bd.CrearComando(vSql. CommandType.Text);
-            bd.AsignarParametro("?", OleDbType.Integer, venta.Id);
-            bd.AsignarParametro("?", OleDbType.VarChar, venta.Nombre);
+            bd.CrearComando(vSql, CommandType.Text);
+            bd.AsignarParametro("?", OleDbType.Integer, cliente.Id);
+            bd.AsignarParametro("?", OleDbType.VarChar, cliente.Nombre);
             numReg = bd.EjecutarComando();
             bd.Desconectar();
             if(numReg<=0){
@@ -79,23 +84,5 @@ namespace AccesoDato
             }
             return numReg;
         }
-
-        public int Eliminar(int Id){
-            int numReg = 0;
-            string vSql = "DELETE FROM Cliente WHERE  [Id] = ?";
-            bd.CrearComando(vSql, CommandType.Text);
-            bd.AsignarParametro("?",OleDbType.Integer, Id);
-            numReg = bd.EjecutarComando();
-            bd.Desconectar();
-            if(numReg <= 0){
-                if(bd.BdCodeError != 0){
-                    BdCodeError = bd.BdCodeError;
-                    BdMsgError = bd.BdMsgError;
-                }
-            }
-            return numReg;
-        }
-
-
     }
 }

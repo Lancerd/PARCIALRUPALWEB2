@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Comun;
 using System.Data;
+using System.Data.OleDb;
 
 namespace AccesoDato
 {
@@ -17,14 +18,14 @@ namespace AccesoDato
 
         public string BdMsgError {get; set;}
 
-        public VentaProducto(){
+        public VentaProductoDao(){
             BdCodeError = 0;
             BdMsgError = "";
-            bd = new BaseDeDato;
-            bd.Conectar;
+            bd = new BaseDeDato();
+            bd.Conectar();
         }
 
-        public List<VentaProducto> ListarVentaProducto(int IdFactura)
+        public List<VentaProducto> ListarVentaProducto()
         {
             List<VentaProducto> ventaProductos = new List<VentaProducto>();
             Data data = new Data();
@@ -37,14 +38,13 @@ namespace AccesoDato
                                 FacturaProducto fp ON p.Id = fp.IdProducto
                             WHERE 
                                 fp.IdFactura = ?";
-            DataTable dt = data.CargarDt(vSql, CommandType.Text, new SqlParameter("@IdFactura", IdFactura));
+            DataTable dt = data.CargarDt(vSql, CommandType.Text);
             foreach (DataRow dr in dt.Rows)
             {
                 VentaProducto ventaProducto = new VentaProducto
                 {
-                    Id = Convert.ToInt32(dr["Id"]),
+                    IdFactura = Convert.ToInt32(dr["Id"]),
                     IdProducto = Convert.ToInt32(dr["IdProducto"]),
-                    ValorProducto = Convert.ToInt32(dr["Valor"]) 
                 };
                 ventaProductos.Add(ventaProducto);
             }
@@ -54,7 +54,7 @@ namespace AccesoDato
         public int InsertarVP(VentaProducto ventaProducto){
             int numReg = 0;
             var vSql = "INSERT INTO Factura-Producto ([IdFactura], [IdProducto]) VALUES (?,?)";
-            bd.CrearComando(vSql. CommandType.Text);
+            bd.CrearComando(vSql, CommandType.Text);
             bd.AsignarParametro("?", OleDbType.Integer, ventaProducto.IdFactura);
             bd.AsignarParametro("?", OleDbType.Integer, ventaProducto.IdProducto);
             numReg = bd.EjecutarComando();
@@ -68,11 +68,11 @@ namespace AccesoDato
             return numReg;
         }
 
-        public int EliminarV(int IdFactura){
+        public int EliminarV(VentaProducto ventaProducto){
             int numReg = 0;
             string vSql = "DELETE FROM Factura-Producto WHERE  [IdFactura] = ?";
             bd.CrearComando(vSql, CommandType.Text);
-            bd.AsignarParametro("?",OleDbType.Integer, IdFactura);
+            bd.AsignarParametro("?",OleDbType.Integer, ventaProducto.IdFactura);
             numReg = bd.EjecutarComando();
             bd.Desconectar();
             if(numReg <= 0){
@@ -84,11 +84,11 @@ namespace AccesoDato
             return numReg;
         }
 
-        public int EliminarPV(int IdProducto){
+        public int EliminarPV(VentaProducto ventaProducto){
             int numReg = 0;
             string vSql = "Delet FROM Factura-Producto WHERE  [IdProducto] = ?";
             bd.CrearComando(vSql, CommandType.Text);
-            bd.AsignarParametro("?",OleDbType.Integer, IdProducto);
+            bd.AsignarParametro("?",OleDbType.Integer, ventaProducto.IdProducto);
             numReg = bd.EjecutarComando();
             bd.Desconectar();
             if(numReg <= 0){

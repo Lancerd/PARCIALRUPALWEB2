@@ -20,7 +20,7 @@ namespace Comun
             Valor = 0;
         }
 
-        public Producto (int Id, string Nombre int Valor){
+        public Producto (int Id, string Nombre, int Valor){
             this.Id = Id;
             this.Nombre = Nombre;
             this.Valor = Valor;

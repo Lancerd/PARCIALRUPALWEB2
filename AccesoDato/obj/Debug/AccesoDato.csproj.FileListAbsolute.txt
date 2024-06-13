@@ -7,3 +7,12 @@ C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\bin\Debug\Comun
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.Up2Date
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.dll
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.AssemblyReference.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.CoreCompileInputs.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\bin\Debug\AccesoDato.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\bin\Debug\AccesoDato.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\bin\Debug\Comun.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\bin\Debug\Comun.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\AccesoDato\obj\Debug\AccesoDato.csproj.Up2Date

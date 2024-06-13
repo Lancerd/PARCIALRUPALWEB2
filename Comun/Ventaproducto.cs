@@ -11,18 +11,20 @@ namespace Comun
         
         public int IdProducto { get; set;}
 
-        public sat
+        public int IdFactura { get; set;}
 
         public int Valor { get; set;} 
 
-        public Venta (){
+        public VentaProducto (){
+            IdFactura = 0;
             IdProducto = 0;
             Valor = 0;
         }
 
-        public VentaProducto (int IdFactura, int IdProducto){
+        public VentaProducto (int IdFactura, int IdProducto , int Valor){
             this.IdFactura = IdFactura;
             this.IdProducto = IdProducto;
+            this.Valor = Valor;
         }
 
     }

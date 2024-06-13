@@ -13,58 +13,73 @@ namespace ReglaNegocio
     {
 
         VentaDao ventaDao;
-        public int BdCodeError {get; set;}
-        public int BdMsgError {get; set;}
+        public int BdCodeError { get; set; }
+        public string BdMsgError { get; set; }
 
-        public VentaProductoBl(){
+        public VentaBl()
+        {
             BdCodeError = 0;
             BdMsgError = "";
             ventaDao = new VentaDao();
         }
 
-        public int InsertarVP (Venta venta){
+        public int Insertar(Venta venta)
+        {
             int numReg = 0;
-            numReg = ventaDao.InsertarVP(venta);
-            if(numReg <= 0){
-                if(ventaProductoDao.BdCodeError != 0){
-                    BdCodeError = ventaProductoDao.BdCodeError;
-                    BdMsgError = ventaProductoDao.BdMsgError;
+            numReg = ventaDao.Insertar(venta);
+            if (numReg <= 0)
+            {
+                if (ventaDao.BdCodeError != 0)
+                {
+                    BdCodeError = ventaDao.BdCodeError;
+                    BdMsgError = ventaDao.BdMsgError;
                 }
             }
             return numReg;
         }
 
-        public int EliminarVP(Venta venta){
+        public int Eliminar(Venta venta)
+        {
             int numReg = 0;
-            numReg = VentaDao.Eliminar(venta);
-            if(numReg <= 0){
-                if(ventaProductoDao.BdCodeError !=0){
-                    BdCodeError = ventaProductoDao.BdCodeError;
-                    BdMsgError = ventaProductoDao.BdMsgError;
+            numReg = ventaDao.Eliminar(venta);
+            if (numReg <= 0)
+            {
+                if (ventaDao.BdCodeError != 0)
+                {
+                    BdCodeError = ventaDao.BdCodeError;
+                    BdMsgError = ventaDao.BdMsgError;
                 }
             }
             return numReg;
         }
 
-        public int EliminarV(Venta venta){
+        public int EliminarV(Venta venta)
+        {
             int numReg = 0;
-            numReg = VentaDao.Eliminar(venta);
-            if(numReg <= 0){
-                if(ventaProductoDao.BdCodeError !=0){
-                    BdCodeError = ventaProductoDao.BdCodeError;
-                    BdMsgError = ventaProductoDao.BdMsgError;
+            numReg = ventaDao.Eliminar(venta);
+            if (numReg <= 0)
+            {
+                if (ventaDao.BdCodeError != 0)
+                {
+                    BdCodeError = ventaDao.BdCodeError;
+                    BdMsgError = ventaDao.BdMsgError;
                 }
             }
             return numReg;
         }
 
-        public static void ListarVenta(DropDownList cmd){
+        public static void ListarVenta(GridView dgv)
+        {
             VentaDao ventaDao = new VentaDao();
-            List<Venta> venta = VentaDao.ListarVenta(cmd);
-            cmd.DataSource = venta;
-            cmd.DataValueField = "Id";
-            cmd.DataTextField = "IdCliente";
-            cmd.DataBind();
+            List<Venta> venta = ventaDao.ListarVenta();
+            var DatosMostrar = venta.Select(v => new {
+                v.Id,
+                v.IdCliente
+            }).ToList();
+            dgv.DataSource = venta;
+            dgv.DataBind();
+
+            dgv.HeaderRow.Cells[2].Text = "Nombre";
         }
     }
 }

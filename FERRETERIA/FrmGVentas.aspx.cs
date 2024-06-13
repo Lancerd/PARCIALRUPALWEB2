@@ -17,7 +17,7 @@ namespace FERRETERIA
         }
         private void CargarCombo_cliente()
         {
-            
+            ClienteBl.ListarCliente();
         }
         protected void CmbCliente_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -26,14 +26,7 @@ namespace FERRETERIA
         }
         protected void CargarFacturas(string clienteId)
         {
-            // Aquí deberías implementar el código para acceder a tu base de datos y recuperar las facturas asociadas al cliente seleccionado.
-            // Supongamos que tienes una clase llamada DataAccess con un método llamado ObtenerFacturasPorCliente que devuelve una lista de facturas para un cliente dado.
-            //List<Factura> facturas = DataAccess.ObtenerFacturasPorCliente(clienteId);
-            // Una vez que tienes la lista de facturas, puedes asignarla al DropDownList CmbFactura
-            // Suponiendo que cada factura tiene un campo "Nombre" que deseas mostrar en el DropDownList
-            // Suponiendo que cada factura tiene un campo "Id" que deseas utilizar como valor en el DropDownList
-            // Opcionalmente, puedes agregar un elemento por defecto al DropDownList
-            CmbFactura.Items.Insert(0, new ListItem("Seleccione una factura", ""));
+            VentaBl.ListarVenta(DgvProductos);
         }
     }
 }

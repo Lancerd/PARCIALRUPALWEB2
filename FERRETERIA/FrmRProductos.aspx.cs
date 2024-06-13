@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Comun;
+using ReglaNegocio;
 
 namespace FERRETERIA
 {
@@ -40,7 +42,7 @@ namespace FERRETERIA
 
         protected void BtnBuscar_Click(object sender, EventArgs e)
         {
-
+            ListarProduto();
         }
 
         protected void BtnAgregar_Click(object sender, EventArgs e)

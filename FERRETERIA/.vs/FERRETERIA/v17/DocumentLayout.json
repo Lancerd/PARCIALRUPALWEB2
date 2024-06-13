@@ -1,24 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\FERRETERIA\\",
+  "WorkspaceRootPath": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\ventadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\ventaproductobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\ventaproductodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\ventadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049F3C9B-C391-4FCA-8D25-EB989BEB07E8}|..\\Comun\\Comun.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\comun\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\reglanegocio\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|c:\\users\\sys\\desktop\\\u0026%#(#!\u00A1!\\cobro\\parcialrupalweb2\\accesodato\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{252C5B0E-875F-45BF-A519-6411501F6DE4}|..\\AccesoDato\\AccesoDato.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\accesodato\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 201,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,80 +40,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VentaBl.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
-              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaBl.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
-              "RelativeToolTip": "..\\ReglaNegocio\\VentaBl.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAlwA8AAAApAAAA",
+              "DocumentIndex": 5,
+              "Title": "ClienteDao.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\ClienteDao.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\ClienteDao.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:24:25.95Z",
+              "WhenOpened": "2024-06-13T00:03:58.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VentaDao.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\VentaDao.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\VentaDao.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAnwBMAAAAVAAAA",
+              "DocumentIndex": 4,
+              "Title": "ClienteBl.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ClienteBl.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ClienteBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\ClienteBl.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:03:19.93Z",
+              "WhenOpened": "2024-06-13T00:03:25.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductoDao.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ProductoDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\ProductoDao.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ProductoDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\ProductoDao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Title": "VentaProductoDao.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaProductoDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\VentaProductoDao.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaProductoDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\VentaProductoDao.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwEAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:11:12.264Z",
+              "WhenOpened": "2024-06-12T23:59:32.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Venta.cs",
-              "RelativeDocumentMoniker": "..\\Comun\\Venta.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\Comun\\Venta.cs",
-              "RelativeToolTip": "..\\Comun\\Venta.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "VentaProductoBl.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaProductoBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaProductoBl.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaProductoBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\VentaProductoBl.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAQwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:08:39.47Z",
+              "WhenOpened": "2024-06-12T23:57:42.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ClienteDao.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\ClienteDao.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\ClienteDao.cs",
-              "RelativeToolTip": "..\\AccesoDato\\ClienteDao.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAVAAAA",
+              "Title": "VentaDao.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
+              "RelativeDocumentMoniker": "..\\AccesoDato\\VentaDao.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\AccesoDato\\VentaDao.cs",
+              "RelativeToolTip": "..\\AccesoDato\\VentaDao.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAASwDsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:06:35.947Z",
+              "WhenOpened": "2024-06-12T12:28:30.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Data.cs",
-              "RelativeDocumentMoniker": "..\\AccesoDato\\Data.cs",
-              "ToolTip": "C:\\Users\\sys\\Desktop\\\u0026%#(#!\u00A1!\\COBRO\\PARCIALRUPALWEB2\\AccesoDato\\Data.cs",
-              "RelativeToolTip": "..\\AccesoDato\\Data.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA9wB8AAAAeAAAA",
+              "DocumentIndex": 3,
+              "Title": "VentaBl.cs",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
+              "RelativeDocumentMoniker": "..\\ReglaNegocio\\VentaBl.cs",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\VentaBl.cs",
+              "RelativeToolTip": "..\\ReglaNegocio\\VentaBl.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T04:03:52.578Z",
+              "WhenOpened": "2024-06-12T12:28:51.428Z",
               "EditorCaption": ""
             }
           ]

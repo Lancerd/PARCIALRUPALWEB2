@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AccesoDato;
 using Comun;
+using System.Web.UI.WebControls;
 
 namespace ReglaNegocio
 {
@@ -12,7 +13,7 @@ namespace ReglaNegocio
     {
         VentaProductoDao ventaProductoDao;
         public int BdCodeError {get; set;}
-        public int BdMsgError {get; set;}
+        public string BdMsgError {get; set;}
 
         public VentaProductoBl(){
             BdCodeError = 0;
@@ -34,7 +35,7 @@ namespace ReglaNegocio
 
         public int EliminarVP(VentaProducto ventaProducto){
             int numReg = 0;
-            numReg = VentaProductoDao.EliminarVP(ventaProducto);
+            numReg = VentaProductoDao.EliminarPV(ventaProducto);
             if(numReg <= 0){
                 if(ventaProductoDao.BdCodeError !=0){
                     BdCodeError = ventaProductoDao.BdCodeError;
@@ -58,7 +59,7 @@ namespace ReglaNegocio
 
         public static void ListarVentaProducto(DropDownList cmd){
             VentaProductoDao ventaProductoDao = new VentaProductoDao();
-            List<VentaProducto> ventaProducto = VentaProductoDao.ListarVentaProducto(cmd);
+            List<VentaProducto> ventaProducto = ventaProductoDao.ListarVentaProducto();
             cmd.DataSource = ventaProducto;
             cmd.DataValueField = "IdFactura";
             cmd.DataValueField = "IdProducto";

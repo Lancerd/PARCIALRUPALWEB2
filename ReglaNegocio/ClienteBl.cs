@@ -12,13 +12,13 @@ namespace ReglaNegocio
 {
     public class ClienteBl
     {
-        public static void ListarCliente(DropDownList cmd){
+        public static void ListarCliente(DropDownList cmb) { 
             ClienteDao clienteDao = new ClienteDao();
-            List<Cliente> cliente = ClienteDao.ListarCliente(cmd);
-            cmd.DataSource = cliente;
-            cmd.DataValueField = "Id";
-            cmd.DataTextField = "Nombre";
-            cmd.DataBind();
+            List<Cliente> cliente = clienteDao.ListarCliente();
+            cmb.DataSource = cliente;
+            cmb.DataValueField = "Id";
+            cmb.DataTextField = "Nombre";
+            cmb.DataBind();
         }
     }
 }

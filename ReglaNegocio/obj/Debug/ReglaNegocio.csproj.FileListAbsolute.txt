@@ -1,2 +1,4 @@
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.AssemblyReference.cache
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.CoreCompileInputs.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.AssemblyReference.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.CoreCompileInputs.cache

@@ -73,3 +73,7 @@ C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRE
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.csproj.Up2Date
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.dll
 C:\Users\sys\Desktop\&%#(#!¡!\COBRO\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.pdb
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.csproj.AssemblyReference.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.csproj.CoreCompileInputs.cache
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.dll
+D:\Parcial\Jualiana\PARCIALRUPALWEB2\FERRETERIA\obj\Debug\FERRETERIA.pdb
