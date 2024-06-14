@@ -69,14 +69,9 @@
                                     <asp:Label ID="LblNProducto" runat="server" Text="Producto" CssClass="styled-label"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:TextBox ID="TxtNproducto" runat="server" CssClass="rounded-textbox"></asp:TextBox>
+                                    <asp:TextBox ID="TxtNProducto" runat="server" CssClass="rounded-textbox"></asp:TextBox>
                                 </td>
-                                <td>
-                                    <asp:Label ID="LblMarca" runat="server" Text="Marca" CssClass="styled-label"></asp:Label>
-                                </td>
-                                <td>
-                                    <asp:DropDownList ID="CmbMarca" runat="server" CssClass="rounded-textbox"></asp:DropDownList>
-                                </td>
+                                
                                 <td>
                                     <asp:Label ID="LblValor" runat="server" Text="Valor" CssClass="styled-label"></asp:Label>
                                 </td>
@@ -90,7 +85,6 @@
                                     <asp:Button ID="BtnBuscar" runat="server" Text="BUSCAR" CssClass="btn btn-primary" OnClick="BtnBuscar_Click" />
                                     <asp:Button ID="BtnAgregar" runat="server" Text="AGREGAR" CssClass="btn btn-primary" OnClick="BtnAgregar_Click" />
                                     <asp:Button ID="BtnActualizar" runat="server" Text="ACTUALIZAR" CssClass="btn btn-dark" OnClick="BtnActualizar_Click" />
-                                    <asp:Button ID="BtnEliminar" runat="server" Text="ELIMINAR" CssClass="btn btn-danger" OnClick="BtnEliminar_Click" />
                                     <asp:Button ID="BtnVolver" runat="server" Text="Volver" CssClass="btn btn-secondary" OnClick="BtnVolver_Click" />
                                 </td>
                             </tr>
@@ -99,7 +93,7 @@
                             
                                 <td colspan="6">
                                     <br />
-                                    <asp:GridView ID="DgvProductos" runat="server" OnRowDataBound="DgvProductos_RowDataBound"></asp:GridView>
+                                    <asp:GridView ID="DgvProductos" runat="server"  OnSelectedIndexChanged="DgvProductos_SelectedIndexChanged"></asp:GridView>
                                 </td>
                             </tr>
                         </table>

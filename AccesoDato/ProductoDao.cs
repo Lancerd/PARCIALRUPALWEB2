@@ -45,19 +45,23 @@ namespace AccesoDato
             return ListarProducto();
         }
 
-        public int Consultar (Producto producto)
+        public Producto Consultar (string NProducto)
         {
-            int numReg = 0;
-            var vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto WHERE [Id]=?";
+            Producto producto = new Producto();
+            var vSql = "SELECT [Id], [Nombre], [Valor] FROM Producto WHERE [Nombre]=?";
             bd.CrearComando(vSql, CommandType.Text);
-            bd.AsignarParametro("?", OleDbType.Integer, producto.Id);
-            numReg = bd.EjecutarComando();
-            bd.Desconectar();
-            if(numReg <= 0)
-            {
-
+            bd.AsignarParametro("?", OleDbType.VarChar, NProducto);
+            OleDbDataReader dr = bd.EjecutarConsultaReader();
+            if(dr.Read()){
+                producto.Nombre = NProducto;
+                producto.Id = Convert.ToInt32(dr["Id"]);
+                producto.Valor = Convert.ToInt32(dr["Valor"]);
+                producto.Consulto = true;
             }
-            return numReg;
+            bd.Desconectar();
+            dr.Close();
+            return producto;
+            
         }
 
         public int Insertar(Producto producto){

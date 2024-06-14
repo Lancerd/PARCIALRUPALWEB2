@@ -13,28 +13,19 @@ namespace FERRETERIA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            CargarGrilla();
         }
-        protected void DgvProductos_RowDataBound(object sender, GridViewRowEventArgs e)
+
+        private void CargarGrilla(){
+            ProductoBl.CargarGrilla(DgvProductos);
+        }
+
+        private void Limpiar()
         {
-            if (e.Row.RowType == DataControlRowType.DataRow)
-            {
-                TableCell cell = new TableCell();
-                Button btn = new Button();
-                btn.Text = "Botón";
-                btn.CssClass = "btn btn-primary";
-                btn.Click += new EventHandler(btn_Click);
-                cell.Controls.Add(btn);
-                e.Row.Cells.Add(cell);
-            }
-
+            TxtNProducto.Text = string.Empty;
+            TxtValor.Text = string.Empty;
         }
-
-        protected void btn_Click(object sender, EventArgs e)
-        {
-            // Lógica del evento clic del botón aquí
-        }
-
+        
         protected void BtnVolver_Click(object sender, EventArgs e)
         {
             Response.Redirect("FrmMenu.aspx");
@@ -42,20 +33,58 @@ namespace FERRETERIA
 
         protected void BtnBuscar_Click(object sender, EventArgs e)
         {
-            ListarProduto(cm);
+            ProductoBl.Consultar(TxtNProducto.Text);
         }
 
         protected void BtnAgregar_Click(object sender, EventArgs e)
         {
-
+            Producto producto = new Producto();
+            ProductoBl productoBl = new ProductoBl();
+            producto.Nombre = TxtNProducto.Text;
+            producto.Valor = Convert.ToInt32(TxtValor.Text);
+            if (productoBl.Insertar(producto) > 0)
+            {
+                LblMensaje.Text = "Se agrego el producto";
+                Limpiar();
+            }
+            else
+            {
+                if(productoBl.BdCodeError != 0)
+                {
+                    LblMensaje.Text = productoBl.BdMsgError;
+                }
+                else
+                {
+                    LblMensaje.Text = "No se agrego el producto";
+                }
+            }
         }
 
         protected void BtnActualizar_Click(object sender, EventArgs e)
         {
-
+            Producto producto = new Producto();
+            ProductoBl productoBl = new ProductoBl();
+            producto.Nombre = TxtNProducto.Text;
+            producto.Valor = Convert.ToInt32(TxtValor.Text);
+            if (productoBl.Insertar(producto) > 0)
+            {
+                LblMensaje.Text = "Se Actualizo el producto";
+                Limpiar();
+            }
+            else
+            {
+                if (productoBl.BdCodeError != 0)
+                {
+                    LblMensaje.Text = productoBl.BdMsgError;
+                }
+                else
+                {
+                    LblMensaje.Text = "No se agrego el producto";
+                }
+            }
         }
 
-        protected void BtnEliminar_Click(object sender, EventArgs e)
+        protected void DgvProductos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

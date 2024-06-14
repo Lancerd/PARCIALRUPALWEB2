@@ -37,6 +37,22 @@ namespace ReglaNegocio
             return numReg;
         }
 
+        public static Producto Consultar(string NProducto){
+            ProductoDao clienteDao = new ProductoDao ();
+            return clienteDao.Consultar(NProducto);
+        }
+
+        public static void CargarGrilla(GridView dgv){
+            List<Producto> productos = ProductoDao.CargarGrilla();
+            var datosmostrar = productos.Select(p => new{
+                p.Id,
+                p.Nombre,
+                p.Valor
+            }).ToList();
+            dgv.DataSource = datosmostrar;
+            dgv.DataBind();
+        }
+
         public static void ListarProducto(DropDownList cmd)
         {
             List<Producto> producto = ProductoDao.CargarGrilla();

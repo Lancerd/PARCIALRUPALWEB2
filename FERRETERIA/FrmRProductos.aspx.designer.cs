@@ -33,31 +33,13 @@ namespace FERRETERIA
         protected global::System.Web.UI.WebControls.Label LblNProducto;
 
         /// <summary>
-        /// Control TxtNproducto.
+        /// Control TxtNProducto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtNproducto;
-
-        /// <summary>
-        /// Control LblMarca.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblMarca;
-
-        /// <summary>
-        /// Control CmbMarca.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CmbMarca;
+        protected global::System.Web.UI.WebControls.TextBox TxtNProducto;
 
         /// <summary>
         /// Control LblValor.
@@ -112,15 +94,6 @@ namespace FERRETERIA
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnActualizar;
-
-        /// <summary>
-        /// Control BtnEliminar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEliminar;
 
         /// <summary>
         /// Control BtnVolver.
