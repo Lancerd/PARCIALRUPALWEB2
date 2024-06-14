@@ -85,6 +85,11 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>
+                                    <asp:Label ID="LblMensaje" runat="server" Text="" CssClass="styled-label"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td colspan="6" class="text-center button-container">
                                     <asp:Button ID="BtnBuscar" runat="server" Text="BUSCAR" CssClass="btn btn-primary" OnClick="BtnBuscar_Click" />
                                     <asp:Button ID="BtnAgregar" runat="server" Text="AGREGAR" CssClass="btn btn-primary" OnClick="BtnAgregar_Click" />

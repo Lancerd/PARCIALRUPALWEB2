@@ -84,6 +84,7 @@
                                     <asp:TextBox ID="TxtValor" runat="server" CssClass="rounded-textbox"></asp:TextBox>
                                 </td>
                             </tr>
+                                <asp:Label ID="LblMensaje" runat="server" Text="" CssClass="styled-label"></asp:Label>
                             <tr>
                                 <td colspan="6" class="text-center button-container">
                                     <asp:Button ID="BtnBuscar" runat="server" Text="BUSCAR" CssClass="btn btn-primary" OnClick="BtnBuscar_Click" />

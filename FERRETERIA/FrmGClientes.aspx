@@ -80,11 +80,15 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>
+                                    <asp:Label ID="LblMensaje" runat="server" Text="" CssClass="styled-label"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td colspan="6" class="text-center button-container">
                                     <asp:Button ID="BtnBuscar" runat="server" Text="BUSCAR" CssClass="btn btn-primary" OnClick="BtnBuscar_Click" />
                                     <asp:Button ID="BtnAgregar" runat="server" Text="AGREGAR" CssClass="btn btn-primary" OnClick="BtnAgregar_Click" />
                                     <asp:Button ID="BtnActualizar" runat="server" Text="ACTUALIZAR" CssClass="btn btn-dark" OnClick="BtnActualizar_Click" />
-                                    <asp:Button ID="BtnEliminar" runat="server" Text="ELIMINAR" CssClass="btn btn-danger" OnClick="BtnEliminar_Click" />
                                     <asp:Button ID="BtnVolver" runat="server" Text="Volver" CssClass="btn btn-secondary" OnClick="BtnVolver_Click" />
                                 </td>
                             </tr>

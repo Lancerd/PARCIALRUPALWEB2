@@ -12,14 +12,14 @@ namespace ReglaNegocio
 {
     public class ClienteBl
     {
-        ClienteDao ClienteDao;
+        ClienteDao clienteDao;
 
         public int BdCodeError;
 
         public string BdMsgError;
 
         public ClienteBl(){
-            ClienteDao = new ClienteDao();
+            clienteDao = new ClienteDao();
             BdCodeError = 0;
             BdMsgError = "";
         }
@@ -42,5 +42,33 @@ namespace ReglaNegocio
             dgv.DataBind();
         }
 
+        public int Actualizar (Cliente cliente){
+            int numReg = 0;
+            numReg = clienteDao.Actualizar(cliente);
+            if(numReg <= 0){
+                if(clienteDao.BdCodeError != 0){
+                    BdCodeError = clienteDao.BdCodeError;
+                    BdMsgError = clienteDao.BdMsgError;
+                }
+            }
+            return numReg;
+        }
+
+        public int Insertar (Cliente cliente){
+            int numReg = 0;
+            numReg = clienteDao.Insertar(cliente);
+            if(numReg <= 0){
+                if(clienteDao.BdCodeError != 0){
+                    BdCodeError = clienteDao.BdCodeError;
+                    BdMsgError = clienteDao.BdMsgError;
+                }
+            }
+            return numReg;
+        }
+
+        public static Cliente Consultar(string NCliente){
+            ClienteDao clienteDao = new ClienteDao();
+            return clienteDao.Consultar(NCliente);
+        }
     }
 }

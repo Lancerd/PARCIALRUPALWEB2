@@ -72,5 +72,7 @@ namespace AccesoDato
             return dt;
         }
 
+        public OleDbDataReader EjecutarConsultaReader()=> cmd.ExecuteReader();
+
     }
 }

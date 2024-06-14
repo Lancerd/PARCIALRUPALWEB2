@@ -37,7 +37,6 @@ namespace ReglaNegocio
             return numReg;
         }
 
-
         public static void ListarProducto(DropDownList cmd)
         {
             List<Producto> producto = ProductoDao.CargarGrilla();

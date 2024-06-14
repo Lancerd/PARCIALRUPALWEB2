@@ -13,14 +13,18 @@ namespace Comun
 
         public string Nombre { get; set;} 
 
+        public bool Consulto {get; set;}
+
         public Cliente (){
             Id = 0;
             Nombre = string.Empty;
+            Consulto = false;
         }
 
-        public Cliente (int Id, string Nombre){
+        public Cliente (int Id, string Nombre, bool Consulto){
             this.Id = Id;
             this.Nombre = Nombre;
+            this.Consulto = Consulto;
         }
     }
 }

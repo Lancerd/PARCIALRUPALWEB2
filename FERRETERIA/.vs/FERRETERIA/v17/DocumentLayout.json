@@ -3,15 +3,20 @@
   "WorkspaceRootPath": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmgpedidos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmgpedidos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmgventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmgventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmrproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmrproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}|..\\ReglaNegocio\\ReglaNegocio.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\reglanegocio\\productobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmrproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmrproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|d:\\parcial\\jualiana\\parcialrupalweb2\\ferreteria\\frmgclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{97A64B4D-9240-4C5F-9183-5A5F20896C6A}|FERRETERIA.csproj|solutionrelative:frmgclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 201,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmRProductos.aspx",
               "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx",
               "RelativeDocumentMoniker": "FrmRProductos.aspx",
@@ -41,33 +46,46 @@
               "RelativeToolTip": "FrmRProductos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-13T20:08:08.044Z",
+              "WhenOpened": "2024-06-14T02:28:40.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductoBl.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
-              "RelativeDocumentMoniker": "..\\ReglaNegocio\\ProductoBl.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\ReglaNegocio\\ProductoBl.cs",
-              "RelativeToolTip": "..\\ReglaNegocio\\ProductoBl.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:07:45.11Z",
+              "Title": "FrmGVentas.aspx",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGVentas.aspx",
+              "RelativeDocumentMoniker": "FrmGVentas.aspx",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGVentas.aspx",
+              "RelativeToolTip": "FrmGVentas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-14T02:28:37.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmRProductos.aspx.cs",
-              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx.cs",
-              "RelativeDocumentMoniker": "FrmRProductos.aspx.cs",
-              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmRProductos.aspx.cs",
-              "RelativeToolTip": "FrmRProductos.aspx.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA9wCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:06:32.916Z",
+              "DocumentIndex": 0,
+              "Title": "FrmGPedidos.aspx",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGPedidos.aspx",
+              "RelativeDocumentMoniker": "FrmGPedidos.aspx",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGPedidos.aspx",
+              "RelativeToolTip": "FrmGPedidos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-14T02:28:36.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmGClientes.aspx",
+              "DocumentMoniker": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGClientes.aspx",
+              "RelativeDocumentMoniker": "FrmGClientes.aspx",
+              "ToolTip": "D:\\Parcial\\Jualiana\\PARCIALRUPALWEB2\\FERRETERIA\\FrmGClientes.aspx",
+              "RelativeToolTip": "FrmGClientes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-14T02:26:33.281Z",
               "EditorCaption": ""
             }
           ]

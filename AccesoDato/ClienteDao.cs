@@ -52,7 +52,7 @@ namespace AccesoDato
             return ListarCliente();
         }
 
-        public int Aptualizar (Cliente cliente)
+        public int Actualizar (Cliente cliente)
         {
             int numReg = 0;
             var vSql = "UPDATE Cliente SET [Nombre]=? WHERE [Id]=?";
@@ -87,6 +87,22 @@ namespace AccesoDato
                 }
             }
             return numReg;
+        }
+
+        public Cliente Consultar (string NCliente){
+            Cliente cliente = new Cliente();
+            String vSql = "SELECT [Id], [Nombre] FROM Cliente Where [Nombre]=?";
+            bd.CrearComando(vSql, CommandType.Text);
+            bd.AsignarParametro("?", OleDbType.Integer, NCliente);
+            OleDbDataReader dr = bd.EjecutarConsultaReader();
+            if(dr.Read()){
+                cliente.Nombre = NCliente;
+                cliente.Id = Convert.ToInt32(dr["Id"]);
+                cliente.Consulto = true;
+            }
+            bd.Desconectar();
+            dr.Close();
+            return cliente;
         }
     }
 }
