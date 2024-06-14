@@ -20,11 +20,6 @@ namespace FERRETERIA
             Response.Redirect("FrmRProductos.aspx");
         }
 
-        protected void BtnGPedidos_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("FrmGPedidos.aspx");
-        }
-
         protected void BtnGVentas_Click(object sender, EventArgs e)
         {
             Response.Redirect("FrmGVentas.aspx");

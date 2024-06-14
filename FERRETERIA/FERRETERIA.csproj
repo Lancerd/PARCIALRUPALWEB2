@@ -298,11 +298,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Comun\Comun.csproj">
-      <Project>{049f3c9b-c391-4fca-8d25-eb989beb07e8}</Project>
+      <Project>{15c7a159-ae68-4c29-ad5b-f36637f74e7f}</Project>
       <Name>Comun</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReglaNegocio\ReglaNegocio.csproj">
-      <Project>{c03162da-4b3e-44a1-8d94-5cf144b14ec5}</Project>
+      <Project>{33bf01b6-190b-4dd0-8362-402286277789}</Project>
       <Name>ReglaNegocio</Name>
     </ProjectReference>
   </ItemGroup>

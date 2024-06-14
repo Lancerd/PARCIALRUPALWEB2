@@ -75,9 +75,6 @@
                                     <asp:Label ID="LblMarca" runat="server" Text="Marca" CssClass="styled-label"></asp:Label>
                                 </td>
                                 <td>
-                                    <asp:DropDownList ID="CmbMarca" runat="server" CssClass="rounded-textbox"></asp:DropDownList>
-                                </td>
-                                <td>
                                     <asp:Label ID="LblValor" runat="server" Text="Valor" CssClass="styled-label"></asp:Label>
                                 </td>
                                 <td>

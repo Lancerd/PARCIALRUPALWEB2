@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C03162DA-4B3E-44A1-8D94-5CF144B14EC5}</ProjectGuid>
+    <ProjectGuid>{33BF01B6-190B-4DD0-8362-402286277789}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ReglaNegocio</RootNamespace>
     <AssemblyName>ReglaNegocio</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -34,8 +34,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,19 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductoBl.cs" />
     <Compile Include="ClienteBl.cs" />
+    <Compile Include="ProductoBl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VentaBl.cs" />
     <Compile Include="VentaProductoBl.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AccesoDato\AccesoDato.csproj">
-      <Project>{252c5b0e-875f-45bf-a519-6411501f6de4}</Project>
+      <Project>{e905ff92-8ef8-4ce6-bbaa-6b35d3a7ed09}</Project>
       <Name>AccesoDato</Name>
     </ProjectReference>
     <ProjectReference Include="..\Comun\Comun.csproj">
-      <Project>{049f3c9b-c391-4fca-8d25-eb989beb07e8}</Project>
+      <Project>{15c7a159-ae68-4c29-ad5b-f36637f74e7f}</Project>
       <Name>Comun</Name>
     </ProjectReference>
   </ItemGroup>
